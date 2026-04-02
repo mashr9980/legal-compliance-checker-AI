@@ -1,0 +1,11 @@
+pip install pyinstaller
+
+pyinstaller raia.spec
+
+Download from: https://nsis.sourceforge.io/
+
+makensis raia_installer.nsi 
+
+or
+
+& "C:\Program Files (x86)\NSIS\makensis.exe" raia_installer.nsi
